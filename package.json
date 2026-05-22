@@ -1,0 +1,17 @@
+{
+  "name": "aircounsel-og-generator",
+  "version": "1.0.0",
+  "description": "CLI generator for branded 1200x630 Open Graph PNG images.",
+  "main": "index.js",
+  "bin": {
+    "aircounsel-og": "./index.js"
+  },
+  "scripts": {
+    "generate": "node index.js",
+    "help": "node index.js --help"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.10.0"
+  }
+}
